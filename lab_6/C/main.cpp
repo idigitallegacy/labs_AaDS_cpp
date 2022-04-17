@@ -114,8 +114,8 @@ int main() {
 
     std::string cmd, tmp_key, tmp_val = "null";
 
-    std::ifstream fin("Map.in");
-    std::ofstream fout("Map.out");
+    std::ifstream fin("linkedmap.in");
+    std::ofstream fout("linkedmap.out");
     fin.tie(nullptr);
     fout.tie(nullptr);
 
